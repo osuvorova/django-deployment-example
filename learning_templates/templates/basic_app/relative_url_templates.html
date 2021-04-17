@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to RELATIVE URL TEMPLATES!</h1>
+    <a href="basic_app/other.html">Absolute page URL - not wotking!v </a>
+    <a href="{% url 'basic_app:other' %}">Relative page URL</a>
+    <a href="{% url 'admin:index' %}">Admin index URL (automatically imported)</a>
+    <a href="{% url 'index' %}">Link to index</a>
+  </body>
+</html>
